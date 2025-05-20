@@ -56,7 +56,7 @@ public class fHome extends javax.swing.JFrame {
             }
         });
 
-        cSkalaAsal.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Celcius", "Farhenheit", "Kelvin" }));
+        cSkalaAsal.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Celcius", "Fahrenheit", "Kelvin" }));
         cSkalaAsal.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cSkalaAsalActionPerformed(evt);
@@ -85,7 +85,7 @@ public class fHome extends javax.swing.JFrame {
 
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Suhu Tujuan"));
 
-        cSkalaTujuan.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Celcius", "Farhenhet", "Kelvin" }));
+        cSkalaTujuan.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Celcius", "Fahrenheit", "Kelvin" }));
         cSkalaTujuan.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cSkalaTujuanActionPerformed(evt);
